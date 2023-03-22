@@ -1,0 +1,176 @@
+.Text{
+    border-radius: 20px;
+    background-color: rgb(56, 56, 56);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+header{   
+    background-image: url(images/фон.jpg); 
+    background-size: 100%;
+    width: 100%;
+    height: 890px;
+}
+#s{
+    font-size: 25px;
+    color: rgb(184, 176, 176);
+}
+#r{
+    font-size: 20px;
+    color: rgb(184, 176, 176);
+}
+#a{
+    border-radius: 20px;
+    height: 60px;
+    width: 170px;
+}
+#J{
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+}
+#c{
+    display: flex;
+    justify-content: center;
+}
+#z{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    margin-right: 100px;
+}
+#Q{
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+}
+#x{
+    border-radius: 20px;
+}
+#c{
+    border-radius: 20px;
+}
+#a{
+    font-size: 27px;
+    border-radius: 20px;
+    color: black;
+}
+.Foter{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    background-color: rgb(37, 37, 37);
+    border-radius: 20px;
+    color: white;
+}
+#logo{
+    border-radius: 20px;
+    height: 100px;
+}
+#tx{
+    font-size: 23px;
+}
+.img{
+    background-image:url(images/фон\ футера.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 610px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#f{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+#p{
+    font-size: 44px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+.PH{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width: 1080px){
+    .Foter{
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr 1fr;
+        width: 400px;
+        background-color: rgb(37, 37, 37);
+        color: white;
+    }
+    footer{
+        width: 100%;
+    }
+    header{   
+        background-image: url(images/фон.jpg); 
+        background-size: 100%;
+        width: 100%;
+        height: 260px;
+    }
+    .Text{
+        border-radius: 20px;
+        height: 50px;
+        background-color: rgb(56, 56, 56);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    #r{
+        font-size: 8px;
+        color: rgb(184, 176, 176);
+    }
+    #s{
+        font-size: 12px;
+        color: rgb(184, 176, 176);
+    }
+    #J{
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+    }
+    #z{
+        display: flex;
+        justify-content: center;
+        font-size: 9px;
+        margin-right: 50px;
+    }
+    #Q{
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+    }
+    #a{
+        font-size: 17px;
+        border-radius: 20px;
+        color: black;
+        width: 100px;
+        height: 50px;
+    }
+    .img{
+        background-image:url(images/фон\ футера.jpg);
+        background-size: 100%;
+        width: 100%;
+        height: 220px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    #f{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    #p{
+        font-size: 14px;
+        color: white;
+        display: flex;
+        justify-content: flex-end;
+    }
+    #tx{
+        font-size: 8px;
+    }
+    #logo{
+        border-radius: 20px;
+        height: 40px;
+        font-size: 8;
+    }
+    }
